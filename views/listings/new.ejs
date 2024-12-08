@@ -1,0 +1,50 @@
+<% layout("/layouts/boilerplate") %>
+<div class="row mt-3">
+    <div class="col-8 offset-2">
+        <h3>Create a new listing</h3>
+        <br><br>
+        <form method="POST" action="/listings" novalidate class="needs-validation" enctype="multipart/form-data">  <!-- needs-validation-> bootstrap class for form validation  ||  enctype="multipart/form-data" -> for image and multiple types upload-->
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>  <!--Form label class from bootstrap-->
+                <input name="listing[title]" placeholder="add a catchy title" type="text" class="form-control" required>
+                <div class="valid-feedback">Title looks good!</div>   <!--bootstrap class for success and falure text-->
+            </div>
+        
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>  <!--Form label class from bootstrap-->
+                <textarea name="listing[description]" class="form-control" required></textarea>
+                <div class="invalid-feedback">Please enter short description</div>   
+            </div>
+
+            <div class="mb-3">
+                <label for="image" class="form-label">Upload Listing Image</label>  <!--Form label class from bootstrap-->
+                <input name="listing[image]" type="file" class="form-control" required>
+            </div>
+    
+            <div class="row">
+                <div class="mb-3 col-md-4">
+                    <label for="price" class="form-label">Price</label> 
+                    <input name="listing[price]" placeholder="Enter price" class="form-control" required>
+                    <div class="invalid-feedback">Price should be a number</div>  
+                </div>
+
+        
+                <div class="mb-3 col-md-8">
+                    <label for="country" class="form-label">Country</label>  <!--Form label class from bootstrap-->
+                    <input name="listing[country]" placeholder="Enter Country" type="text" class="form-control" required>
+                    <div class="invalid-feedback">Country name should be valid</div>  
+                </div>
+
+            </div>
+    
+            <div class="mb-3">
+                <label for="location" class="form-label">Location</label>  <!--Form label class from bootstrap-->
+                <input name="listing[location]" placeholder="Enter Location" type="text" class="form-control" required>
+                <div class="invalid-feedback">Location should be valid</div>  
+            </div>
+
+            <button class="btn btn-dark  add-btn">Add</button>
+            <br><br>
+        </form>
+    </div>
+</div>
