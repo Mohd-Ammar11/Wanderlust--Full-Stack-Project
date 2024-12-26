@@ -6,7 +6,9 @@ This project combines cutting-edge front-end design with robust back-end functio
 
 
 Link -> https://wanderlust-project-441p.onrender.com/listings    
-Youtube Video Link -> https://www.youtube.com/watch?v=DuECczhKY3A
+Youtube Video Link -> https://www.youtube.com/watch?v=DuECczhKY3A      
+![Screenshot 2024-12-26 200930](https://github.com/user-attachments/assets/247b7ab4-7e88-4cbc-8200-1cb69a5ec169)
+
 
 ✨ Key Features:       
 🏠 Dynamic Property Listings: Add, view, and manage properties effortlessly.   
