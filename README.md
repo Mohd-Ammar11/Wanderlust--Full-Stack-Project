@@ -1,4 +1,4 @@
-** Wanderlust (Full-Stack-Project) ** 
+**Wanderlust (Full-Stack-Project)** 
 
 🌟 Presenting: Property Listing Platform 🏡       
 I’m thrilled to share my full-stack web application, inspired by modern property listing platform! 
