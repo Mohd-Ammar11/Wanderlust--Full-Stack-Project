@@ -6,7 +6,7 @@ This project combines cutting-edge front-end design with robust back-end functio
 
 
 Link -> https://wanderlust-project-441p.onrender.com/listings    
-Youtube Video Link -> https://www.youtube.com/watch?v=DuECczhKY3A    
+Video Link -> https://drive.google.com/file/d/1KzEjr8Lv7cBMJMmgistZKxMC9hcFjN5n/view?usp=sharing    
 
 ![Screenshot 2024-12-10 181820](https://github.com/user-attachments/assets/fa4a2b02-4731-439d-b670-454c92f708e6)
 
